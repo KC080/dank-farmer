@@ -60,6 +60,8 @@ async def on_ready():
                 await channel.send('pls fish')
                 await asyncio.sleep(25)
                 await channel.send('pls dig')
+                await asyncio.sleep(5)
+                await channel.send('pls daily')
             except:
                 print("Couldn't Play. Did the channel get nuked or deleted?")
 
